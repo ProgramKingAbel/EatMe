@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_big_anim"
+    android:id="@+id/mybigdraw"
+    tools:context="com.example.grace.eatme.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+
+        >
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_restaurant_menu_black_24dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Slogan"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="Sign Up"
+            android:textColor="@android:color/black"
+
+            />
+        <Button
+            android:id="@+id/btn_LogIn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="LOG IN"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

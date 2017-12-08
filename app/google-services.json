@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007202805553",
+    "firebase_url": "https://eatme-febff.firebaseio.com",
+    "project_id": "eatme-febff",
+    "storage_bucket": "eatme-febff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007202805553:android:323d9670af9b998f",
+        "android_client_info": {
+          "package_name": "com.example.grace.eatme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007202805553-qqqegujfov6ht6gt6maeuq5lrqjftqtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grace.eatme",
+            "certificate_hash": "c258c5849a16b299a2b183030be98f69164d0f84"
+          }
+        },
+        {
+          "client_id": "1007202805553-dmhdrtodfuiedgo7bi1ps69ml1ve2045.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyV7BngJ6zhrIrSKcTtgPET5v-ILWr6Q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007202805553-dmhdrtodfuiedgo7bi1ps69ml1ve2045.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

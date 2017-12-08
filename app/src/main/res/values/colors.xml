@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6ca13e</color>
+    <color name="colorPrimaryDark">#0c0e1c</color>
+    <color name="colorAccent">#2eb509</color>
+
+    <color name="btnSignup">#2eb509</color>
+    <color name="btnSignActive">#e9bef527</color>
+
+    <color name="recyclerview">#646463</color>
+    <color name="recyclerBar">#000</color>
+</resources>
+

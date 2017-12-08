@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_big_anim"
+    tools:context="com.example.grace.eatme.LogIn">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
+
+        >
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_directions_bike_black_24dp"
+
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPhone"
+            android:hint="Enter Phone Number"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtName"
+            android:hint="Enter Your Name"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:inputType="text"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmail"
+            android:hint="Enter Your Email"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:inputType="textEmailAddress"
+
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPass"
+            android:hint="Enter Password"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+
+
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:text="LOG IN"
+        android:background="@drawable/btn"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
